@@ -1,0 +1,39 @@
+#安装清单（直播）
+## 一、 系统优化
+1. 更新
+2. 删除多余的东西
+3. 分区
+4. 重新定位我的文档， 下载
+5. bandizip
+5. 下载百度网盘
+6. 安装office， visio, project, 激活windows
+7. 安装everything
+8. 安装QQ， TIM, 微信   ,文件位置
+9. 安装浏览器: 360, 谷歌, 火狐 并登陆账号 360: helkbore@163.com 谷歌: whellote@gmail.com 火狐: whellote@163.com
+10. 3DM离线运行库
+11. 搜狗输入法及设置 , 去广告， 登录
+12. 夜神模拟器
+13. notepad++    , 快捷键设置， 备份
+14. navicat
+15. txt关联notepad++
+16. 文件扩展名显示
+17.  安装git  配置git
+18. 安装haroopad
+19. 360浏览器下载路径设置 
+20. 安装  duplicate cleaner, , kindle, bcompare, xmind, 虚拟机
+21. 桌面快捷方式: apps, QQ接受文件, 临时, 下载 待删除
+22. 资源管理器默认打开我的电脑
+23. 任务栏清理 3个浏览器, 微信, notepad++, navicat, everything, haroopad
+24. 其他盘的文件结构设置(代码盘, 资源盘): 编程盘: (env, fork, mygit, html5, java, mygit, python, php, others), 数据盘: (game, green, 备份[mybase, notepad++, QQ, sql, sqlite, winxin, markdown, ssh], temp, book, 百度云, 虚拟机)
+25. mybase, 关联数据库
+
+TODO:
+1. 数据库表恢复
+2. 模拟人生, 夜神模拟器数据恢复
+3. 环境搭建
++ java: java web, maven等
++ python
++ php
++ NodeJs
++ 易语言
++ C
