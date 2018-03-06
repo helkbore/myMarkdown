@@ -98,6 +98,10 @@
 
 ### 五. 如何在maven中央库查找包的地址
 
+### 六. 其他方法 eclipse安装maven (未实践)
+
+一般而言，新的eclipse都已经集成了maven，如果没有那么就安装，点击eclipse菜单栏Help->Eclipse Marketplace搜索关键字maven到插件Maven Integration for Eclipse 并点击安装即可，接下来将eclipse集成的maven换成我们自己的，而不用eclipse自带的，重新定位，点击Window -> Preference -> Maven -> Installation -> Add进行设置
+
 ---------------------------------------------------------------------
 在maven中央库查找包的地址。
 
@@ -117,7 +121,7 @@ http://blog.csdn.net/zixiao217/article/details/53270692
 http://blog.csdn.net/wild46cat/article/details/52467676
 http://www.mobibrw.com/2013/685
 https://www.cnblogs.com/noteless/p/5213075.html
-
+http://www.cnblogs.com/youzhibing/p/5004619.html
 
 
 
