@@ -1,0 +1,25 @@
+# mysql5.6.21-64免安装
+1. 新建my.ini
+```
+[mysql]  
+# 设置mysql客户端默认字符集  
+default-character-set=utf8  
+[mysqld]  
+#设置3306端口  
+port = 3306  
+# 设置mysql的安装目录  
+basedir=J:\env\mysql-5.7.21-winx64
+# 设置mysql数据库的数据的存放目录  
+# datadir=D:\mysql\mysql-5.6.17-winx64\data  
+# 允许最大连接数  
+max_connections=200  
+# 服务端使用的字符集默认为8比特编码的latin1字符集  
+character-set-server=utf8  
+# 创建新表时将使用的默认存储引擎  
+default-storage-engine=INNODB
+```
+2. 用管理员cmd到bin目录下执行
+```
+mysqld --initialize-insecure
+mysqld --console
+```
