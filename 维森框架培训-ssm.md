@@ -354,7 +354,7 @@ public class MenuDao extends BaseDao<Menu>{
 
 备注:
 sortable="true": 是否允许此列进行排序
-sortName: 排序的字段 (实体类的名字)
+sortName: 排序的字段 (对应数据库字段名)
 
 ---------------------------------------------------------------
 
