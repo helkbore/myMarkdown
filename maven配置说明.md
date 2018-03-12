@@ -75,7 +75,7 @@
    Package|默认生成的包名, 不写也可以
 
 5. 新生成路径解释(这4个包必须有且配置了, 右键项目 -> Build Path ->  Configure Build Path..  -> source.)
-
+     建: src/main/java 右键项目 new -> Source Folder
 6.  如果仍旧报错, 配置  右键项目 -> Build Path ->  Configure Build Path..  -> Library -> jdk -> edit -> 选择jdk路径  
     详情见:  [https://www.cnblogs.com/wbyp/p/7392681.html][8]
 
@@ -88,6 +88,7 @@
    src/test/resources|| 测试使用, 不需要部署
    src/test/java||测试使用, 不需要部署
 
+7. 更改class路径 Java Build Path -> Source 每个文件夹下的output folder以及下面的, 双击选择targer/classes
 8. 将项目转换成Dynamic Web Project 
    右键项目 -> properties -> project Facets(左边)  -> Convert to faceted from...(右边)
 
@@ -102,6 +103,8 @@
 
 一般而言，新的eclipse都已经集成了maven，如果没有那么就安装，点击eclipse菜单栏Help->Eclipse Marketplace搜索关键字maven到插件Maven Integration for Eclipse 并点击安装即可，接下来将eclipse集成的maven换成我们自己的，而不用eclipse自带的，重新定位，点击Window -> Preference -> Maven -> Installation -> Add进行设置
 
+### 七. maven中添加库
+更新Maven项目。右键项目->Maven->Update Project
 ---------------------------------------------------------------------
 在maven中央库查找包的地址。
 
