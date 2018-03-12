@@ -1,0 +1,41 @@
+## 项目分层
+1. 表现层
+2. 业务层
+3. 持久层
+
+## 所用技术
+<table>
+<tr><th> </th> <th>工具</th>      <th>版本</th>   <th>说明</th></tr>
+<tr><td>1</td> <td>Struts2</td>  <td>2.1.8.1</td><td></td></tr>
+<tr><td>2</td> <td>Hibernate</td><td>3.6.0</td><td></td></tr>
+<tr><td>3</td> <td>Spring</td>   <td>2.5</td><td></td></tr>
+<tr><td>4</td> <td>JBPM</td>     <td>4.4</td><td></td></tr>
+<tr><td>5</td> <td>Junit</td>    <td>4</td><td></td></tr>
+<tr><td>6</td> <td>jQuery</td>   <td>1.4</td><td></td></tr>
+</table>
+
+
+## 开发环境
+<table>
+<tr><th>操作系统</th><td>windows xp/7</td> <td>linux, windows 10</td></tr>
+<tr><th>开发工具</th><td>myeclipse</td> <td>eclipse, netbeans, intellij idea</td></tr>
+<tr><th>数据库</th><td>mysql</td> <td></td></tr>
+<tr><th>服务器</th><td>tomcat</td> <td></td></tr>
+<tr><th>浏览器</th><td>IE, FireFox</td> <td>Chrome, IOS</td></tr>
+</table>
+
+## 代码规范
++ 命名: 驼峰
+  - 类, 接口: 首字母大写
+  - 变量, 方法: 首字母小鞋
+  - 常量: 大写, 单词质检用'_'隔开
++ 注释
+  方法加注释(除非非常明确)
++ 格式化代码, 一个Java文件不要太大, 一个方法种的代码不要过多
+
+## 约定
++ UTF-8编码
++ 实体的主键属性的类型使用整型--Long
+
+## 项目实施
+### 搭建环境
