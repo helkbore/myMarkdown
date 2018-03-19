@@ -76,6 +76,7 @@
 
 5. 新生成路径解释(这4个包必须有且配置了, 右键项目 -> Build Path ->  Configure Build Path..  -> source.)
      建: src/main/java 右键项目 new -> Source Folder
+     备注: 这种方法有点生硬其实可以直接略过执行第6步 -> refresh 就会有src/main/java了
 6.  如果仍旧报错, 配置  右键项目 -> Build Path ->  Configure Build Path..  -> Library -> jdk -> edit -> 选择jdk路径  
     详情见:  [https://www.cnblogs.com/wbyp/p/7392681.html][8]
 
