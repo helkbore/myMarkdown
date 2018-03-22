@@ -45,6 +45,16 @@
 </bean> 
 ```
 
+3. 添加不拦截的页面, 还是在app-security, 添加一个value, 即: `<value>/cardLogin.jsp</value>`和 `<value>/card/login.ws</value>`
+```xml
+<bean id="securityMetadataSource"
+    class="com.wsframe.platform.web.filter.WsSecurityMetadataSource" scope="singleton" >
+    
+    <property name="anonymousUrls">
+        <set>
+            <value>/mobileLogin.jsp</value>
+            <value>/mobileLogin.ws</value>
+```
 ## 二. 分析原理
 1. web.xml添加过滤器, 个人理解就是输入的路由得走进spring-security
 ```xml
