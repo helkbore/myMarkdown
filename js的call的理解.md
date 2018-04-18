@@ -23,3 +23,10 @@ var person = {
 
     console.log(person.fullName());
 ```
+
+## call 的一些用例
+```javascript
+var str = "ABC";
+console.log(str.toLowerCase());
+console.log(String.prototype.toLowerCase.call("EFgG"));
+```
