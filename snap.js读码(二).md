@@ -298,6 +298,9 @@ eve = function (name, scope) {
     return out;
 };
 ```
+前面一堆变量赋值, 到循环`for (var i = 0, ii = listeners.length; i < ii; i++)`
+需要看一下listeners是什么, 即 `eve.listeners(name)` 其中name 值是: `snap.util.attr.cx`
+
 
 
 
@@ -321,5 +324,41 @@ eve = function (name, scope) {
 
 Snap.plugin = function (f) {
     f(Snap, Element, Paper, glob, Fragment);
+};
+```
+
+### `eve.listeners(name)` 其中name 值是: `snap.util.attr.cx`
+```javascript
+var separator = /[\.\/]/;
+eve.listeners = function (name) {
+    var names = isArray(name) ? name : name.split(separator),
+        e = events,
+        item,
+        items,
+        k,
+        i,
+        ii,
+        j,
+        jj,
+        nes,
+        es = [e],
+        out = [];
+    for (i = 0, ii = names.length; i < ii; i++) {
+        nes = [];
+        for (j = 0, jj = es.length; j < jj; j++) {
+            e = es[j].n;
+            items = [e[names[i]], e[wildcard]];
+            k = 2;
+            while (k--) {
+                item = items[k];
+                if (item) {
+                    nes.push(item);
+                    out = out.concat(item.f || []);
+                }
+            }
+        }
+        es = nes;
+    }
+    return out;
 };
 ```
