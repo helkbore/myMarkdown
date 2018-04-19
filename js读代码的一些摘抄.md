@@ -8,3 +8,9 @@ ID = function (el) {
     return (el && el.type ? el.type : E) + idprefix + (idgen++).toString(36);
 }
 ```
+
+## 简单短路
+如果变量a 存在 则使用a
+```javascript
+attr && el.attr(attr)
+```
