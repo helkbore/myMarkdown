@@ -301,6 +301,8 @@ eve = function (name, scope) {
 前面一堆变量赋值, 到循环`for (var i = 0, ii = listeners.length; i < ii; i++)`
 需要看一下listeners是什么, 即 `eve.listeners(name)` 其中name 值是: `snap.util.attr.cx`
 
+## 8. listeners 
+
 
 
 
