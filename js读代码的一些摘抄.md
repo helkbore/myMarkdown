@@ -14,3 +14,10 @@ ID = function (el) {
 ```javascript
 attr && el.attr(attr)
 ```
+
+## isArray
+```javascript
+isArray = Array.isArray || function (ar) {
+    return ar instanceof Array || objtos.call(ar) == "[object Array]";
+};
+```
