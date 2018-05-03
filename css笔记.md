@@ -13,5 +13,20 @@ CSS否定伪类，:not(X)，是以一个简单的X选择器为参数的功能性
 属性选择器
 
 ## 6. box-sizing: content-box
-元素的高度 = 内容高度 + padding + border
+content-box: 元素的高度 = 内容高度 + padding + border
 
+## 7. background-clip: padding-box;
+规定背景的绘制区域
+border-box	背景被裁剪到边框盒.
+padding-box	背景被裁剪到内边距框.
+content-box	背景被裁剪到内容框。
+
+## 8. animation-duration: 1s;
+定义动画完成一个周期需要多少秒或毫秒
+
+## 9. animation-fill-mode: both;
+动画开始前和结束后应用的css样式
+none: 默认值, 不应用
+forwards: 结束后用最后一帧的样式(不会回到动画播放前的状态)
+backwards: 开始前用第一帧的样式(延时前)
+both: 同时应用 forwards 和 backwards
