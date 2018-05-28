@@ -30,3 +30,13 @@ none: 默认值, 不应用
 forwards: 结束后用最后一帧的样式(不会回到动画播放前的状态)
 backwards: 开始前用第一帧的样式(延时前)
 both: 同时应用 forwards 和 backwards
+
+## 10. text-overflow: ellipsis;
+与overflow一起使用, 效果类似"aa..." (ellipsis的作用就是那三个'.'即 ...)
+```css
+overflow: hidden;
+text-overflow: ellipsis;
+```
+
+## 11. white-space: nowrap;
+## 12. vertical-align: middle;
