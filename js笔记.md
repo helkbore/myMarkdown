@@ -9,3 +9,6 @@ console.log(a["hasOwnProperty"](5));
 
 ## 2. unshift()
 向数组的开头添加一个或更多元素，并返回新的长度。
+
+## 3. document.onreadystatechange 页面加载状态改变时的事件
+## 4. document.readyState 返回当前文档的状态
