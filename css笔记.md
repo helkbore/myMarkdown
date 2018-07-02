@@ -40,3 +40,5 @@ text-overflow: ellipsis;
 
 ## 11. white-space: nowrap;
 ## 12. vertical-align: middle;
+## 13. #test[data-readmore]
+选择器, id为test且含有data-readmore属性的 
