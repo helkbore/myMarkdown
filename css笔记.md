@@ -42,3 +42,21 @@ text-overflow: ellipsis;
 ## 12. vertical-align: middle;
 ## 13. #test[data-readmore]
 选择器, id为test且含有data-readmore属性的 
+## 14. transition
+transition: all 0.3s ease; 
+transition: max-height 0.2s ease-out;
+
+### 语法: transition: 过渡属性 过渡效果时间 速度效果 过渡效果何时开始
+#### 过渡属性(transition-property: none|all|property)
+property: CSS属性名称列表, 逗号隔开
+#### 过渡效果时间(transition-duration): 秒/毫秒
+#### 过渡速度效果(transition-timing-function)
+linear: 匀速
+ease: 慢速开始 -> 加速 -> 减速 -> 慢速结束
+ease-in: 慢速开始 -> 加速
+ease-out: 快速开始 -> 减速 -> 慢速结束
+ease-in-out: 慢速开始 -> 加速 -> 减速 -> 慢速结束
+#### 过渡效果何时开始 (transition-delay: time)
+transition-delay: 1s;
+
+
